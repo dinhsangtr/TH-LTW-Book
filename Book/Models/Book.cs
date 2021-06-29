@@ -25,6 +25,7 @@
         [Display(Name = "Mô tả")]
         [Required(ErrorMessage = "Mô tả không được để trống")]
         [StringLength(255)]
+        [DataType(DataType.MultilineText)]
         public string Description { get; set; }
 
 
